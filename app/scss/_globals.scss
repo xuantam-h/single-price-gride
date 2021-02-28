@@ -1,0 +1,41 @@
+*,*:after{
+    box-sizing: border-box;
+}
+
+html{
+    font-size:100%;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-size:1rem;
+    background:$ltgray;
+    font-family: $font-stack;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+ul,ol{
+    list-style: none;
+    padding:0;
+
+    li{
+        margin:0.625rem 0;
+    }
+}
+
+h1,
+h2,
+h3{
+    font-weight: $boldweight;
+    margin-top:0;
+}
+h3{
+    color:$yellow;
+}
+
+p{
+    line-height:1.8;
+}
