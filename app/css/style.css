@@ -48,17 +48,21 @@ section {
     color: #2ab2af; }
 
 .subscription {
-  background-color: #2ab2af; }
+  background-color: #2ab2af;
+  color: #fff; }
   .subscription__price {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700; }
     .subscription__price span {
-      font-weight: 700;
-      color: #fff;
-      font-size: 2rem; }
+      opacity: 0.5;
+      font-size: 1rem;
+      font-weight: 300;
+      margin-left: 0.9rem; }
 
 .why-us {
-  background-color: #00c2c2; }
+  background-color: #00a8a8; }
 
 .subscription,
 .why-us {

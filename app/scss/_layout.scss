@@ -20,22 +20,25 @@ section{
 
 .subscription{
     background-color:$cyan;
+    color:$white;
 
     &__price{
         display: flex;
         align-items: center;
-
+        font-size:2rem;
+        font-weight: $boldweight;
 
         span{
-            font-weight: $boldweight;
-            color:$white;
-            font-size:2rem;
+            opacity:0.5;
+            font-size: 1rem;
+            font-weight: 300;
+            margin-left:0.9rem;
         }
     }
 }
 
 .why-us{
-    background-color: darken(cyan, 12%)
+    background-color: darken(cyan, 17%)
 }
 
 .subscription,
