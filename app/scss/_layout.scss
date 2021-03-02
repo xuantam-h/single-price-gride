@@ -27,6 +27,7 @@ section{
         align-items: center;
         font-size:2rem;
         font-weight: $boldweight;
+        margin:0;
 
         span{
             opacity:0.5;
@@ -38,7 +39,7 @@ section{
 }
 
 .why-us{
-    background-color: darken(cyan, 17%)
+    background-color: $ltcyan;
 }
 
 .subscription,
@@ -53,11 +54,24 @@ section{
     overflow: hidden;
     margin:2rem;
     box-shadow:rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    max-width: 48rem;
 
     @media (min-width:$tablet){
         grid-template-columns: repeat(2,1fr);
     }
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color:$grayblue;
+
+
+    a{
+        color:$yellow;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+
+}
